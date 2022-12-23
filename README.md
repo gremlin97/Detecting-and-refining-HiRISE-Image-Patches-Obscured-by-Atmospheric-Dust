@@ -3,7 +3,7 @@
 Course: CSE 572
 
 ## Goal
-The goal of this project is to create an end-to-end pipeline to bifurcate dusty and non-dusty (Images obstructed by atmospheric dust from martian storms) image patches from the HiRISE camera. Further, we denoise the dusty patches to filter and generate denoised images.
+This repository contains code for my CSE572: Data Mining Final Project. The goal of this project is to create an end-to-end pipeline to bifurcate dusty and non-dusty (Images obstructed by atmospheric dust from martian storms) image patches from the HiRISE camera. Further, we denoise the dusty patches to filter and generate denoised images.
 
 ## Dataset
 Dataset url: https://zenodo.org/record/3495068#.Y6VYZHbMJPZ
@@ -20,4 +20,4 @@ Dataset url: https://zenodo.org/record/3495068#.Y6VYZHbMJPZ
 
 ### Python Notebook
 * First inspect then run the required individual IPYNB files `Denoiser_mod.ipynb, DustPredictor.ipynb etc.` files as per the task to get the required output.
-* Run them in Colab or run the Jupyter notebook in your local instance.
+* Run them in Colab or run the Jupyter notebook in your local instance. . For any issues regarding the code please mail me at: kkasodek@asu.edu.
