@@ -5,8 +5,11 @@ Course: CSE 572
 ## Goal
 The goal of this project is to create an end-to-end pipeline to bifurcate dusty and non-dusty (Images obstructed by atmospheric dust from martian storms) image patches from the HiRISE camera. Further, we denoise the dusty patches to filter and generate denoised images.
 
+## Dataset
+Dataset url: https://zenodo.org/record/3495068#.Y6VYZHbMJPZ
+
 ## Folder Contents
-* The codebase consists of an `/Experiments'` folder where all the experimentation conducted during the Project Time Period is included. It also includes the SSIM, MSSIM, PSNR, and MAE metrics to calculate the difference between the denoised and expected images. 
+* The codebase consists of an `'/Experiments'` folder where all the experimentation conducted during the Project Time Period is included. It also includes the SSIM, MSSIM, PSNR, and MAE metrics to calculate the difference between the denoised and expected images. 
 
 * `Denoiser_mod.ipynb`: This notebook generates noisy training data, and uses it to train denoising models and display the results.
 * `ResNetAtmosphericDustMars_main.ipynb`: This notebook trains and evaluates a Resnet50 classifier on the dataset.
