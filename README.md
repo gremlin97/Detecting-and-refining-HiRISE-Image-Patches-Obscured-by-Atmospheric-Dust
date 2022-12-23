@@ -18,6 +18,6 @@ Dataset url: https://zenodo.org/record/3495068#.Y6VYZHbMJPZ
 
 ## How to Run?
 
-### Python File
+### Python Notebook
 * First inspect then run the required individual IPYNB files `Denoiser_mod.ipynb, DustPredictor.ipynb etc.` files as per the task to get the required output.
 * Run them in Colab or run the Jupyter notebook in your local instance.
